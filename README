@@ -2,6 +2,14 @@ A helper class for credit card number fields.
 
 Currently only detects a card type and adds the appropriate class (for styling).
 
+
+Usage:
+<script type="text/javscript">
+$(document).ready(function() {
+  $('.credit_card_number').creditCard()
+});
+</script>
+
 TODO:
 Luhn Check
 Misc. validation (card length, etc.)
